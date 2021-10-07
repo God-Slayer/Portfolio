@@ -281,3 +281,9 @@ body{
 .blank{
 	visibility: hidden;
 }
+
+@media only screen and (max-width: 980px){
+	body{
+		height: 100vh;
+	}
+}
