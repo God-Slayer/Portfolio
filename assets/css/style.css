@@ -44,6 +44,68 @@ canvas{
   background-position: 50% 50%;
 }
 
+.download_cont{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 1rem;
+	right: 1rem;
+	color: rgb(var(--rgb_hl));
+	transition: 250ms ease-in-out;
+}
+.download_cont > i{
+	font-size: 2.5rem;
+	cursor: pointer;
+}
+.download_cont > span{
+	margin-top: .3rem;
+	font-size: .8rem;
+	transition: 250ms ease-in-out;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transform: scaleY(0);
+	transform-origin: top;
+}
+
+.file_cont{
+	border-top: 2px solid rgb(var(--rgb_hl));
+	margin-top: .3rem;
+	width: 100%;
+	transition: 250ms ease-in-out;
+	transform-origin: top;
+	transform: scaleY(0);
+}
+.file_cont > ul{
+	list-style: none;
+}
+.file_cont li:first-child{
+	margin-top: .3rem;
+}
+.file_cont li{
+	padding: .2rem 0;
+	transition: background-color 250ms ease-in-out;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	text-align: center;
+	cursor: pointer;
+}
+.file_cont li i{
+	margin-left: .3rem;
+}
+.file_cont li:hover{
+	background: rgba(var(--rgb_dk),.8);
+}
+.file_cont a{
+	display: none;
+}
+
+.download_cont > span.open,
+.file_cont.open{
+	transform: scaleY(1);
+}
+
 .page{
 	position: relative;
 	width: 794px;
