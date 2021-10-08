@@ -363,4 +363,22 @@ canvas{
 	body{
 		height: 100vh;
 	}
+
+	.download_cont{
+		top: 2rem;
+		right: 2rem;
+	}
+	.download_cont > i{
+		font-size: 5rem;
+	}
+	.download_cont > span{
+		font-size: 1.2rem;
+	}
+
+	.file_cont li{
+		font-size: 2rem;
+	}
+	.file_cont li i{
+		margin-left: .5rem;
+	}
 }
