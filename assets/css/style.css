@@ -161,11 +161,13 @@ canvas{
 .title > p{
 	letter-spacing: 2px;
 	font-size: 1.1rem;
-	margin-left: -10.5rem;
+	/* margin-left: -10.5rem; */
+	margin-left: -2.9em;
 }
 
 .profile{
 	height: 8rem;
+	/* visibility: hidden; */
 }
 
 .details{
@@ -187,8 +189,7 @@ canvas{
 .details > ul li > i{
 	padding: .2rem;
 	margin-right: .3rem;
-	background: rgb(var(--rgb_dk));
-	color: rgb(var(--rgb_ft));
+	color: rgb(var(--rgb_dk));
 	text-align: center;
 }
 
@@ -249,18 +250,18 @@ canvas{
 	font-size: .8rem;
 }
 
-.lang_cont{
+.skills_cont{
 	margin-top: 1.5rem;
 	padding-top: 1.5rem;
 	padding-left: 1rem;
 	padding-right: 2rem;
 	border-top: 4px solid rgba(var(--rgb_acc),.4);
 }
-.lang_cont :is(h2,p){
+.skills_cont :is(h2,p){
 	color: rgb(var(--rgb_hl));
 	text-transform: uppercase;
 }
-.lang_cont > h2{
+.skills_cont > h2{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 700;
@@ -268,7 +269,7 @@ canvas{
 	border-bottom: 2px solid rgb(var(--rgb_hl));
 	margin-bottom: 1rem;
 }
-.lang_cont > p{
+.skills_cont > p{
 	padding: .3rem 0;
 	font-size: .8rem;
 }
